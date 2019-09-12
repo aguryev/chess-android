@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.stchess">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/chess_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/chess_round_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".OptionsActivity"></activity>
+        <activity android:name=".GameActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SingleActivity" />
+        <activity android:name=".TwoActivity" />
+    </application>
+
+</manifest>

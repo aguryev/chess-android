@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">STchess</string>
+    <string name="player">Player</string>
+    <string name="player1">Player 1</string>
+    <string name="player2">Player 2</string>
+    <string name="computer">Computer</string>
+    <string name="player_color">Colour</string>
+    <string name="dif">Difficulty</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="resume">Resume</string>
+    <string name="restart">New game</string>
+    <string name="quit">Main menu</string>
+    <string name="check">Check!</string>
+    <string name="gameover">Game over</string>
+    <string name="black">Black wins!</string>
+    <string name="white">White wins!</string>
+    <string name="draw">Draw\n(Stalemate)</string>
+    <string name="select">Choose Music File</string>
+</resources>

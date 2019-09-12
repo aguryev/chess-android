@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game_bg"
+    tools:context=".GameActivity">
+
+    <ImageButton
+        android:id="@+id/pause"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/bt_pause"/>
+
+    <ImageButton
+        android:id="@+id/takeback"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="65dp"
+        android:background="@drawable/bt_takeback"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/board">
+
+        <TextView
+            android:id="@+id/player2Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/orange"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/timerTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/orange"
+            android:textSize="25sp"
+            android:text="1:00"/>
+
+        <ImageView
+            android:id="@+id/captTwo_1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/timerTwo"
+            android:layout_alignParentStart="true"
+            android:background="@null"
+            android:src="@null"/>
+
+        <ImageView
+            android:id="@+id/captTwo_2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/timerTwo"
+            android:layout_toEndOf="@+id/captTwo_1"
+            android:background="@null"
+            android:src="@null"/>
+
+        <ImageView
+            android:id="@+id/captTwo_3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/timerTwo"
+            android:layout_toEndOf="@+id/captTwo_2"
+            android:background="@null"
+            android:src="@null"/>
+
+        <ImageView
+            android:id="@+id/captTwo_4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/timerTwo"
+            android:layout_toEndOf="@+id/captTwo_3"
+            android:background="@null"
+            android:src="@null"/>
+
+        <ImageView
+            android:id="@+id/captTwo_5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/timerTwo"
+            android:layout_toEndOf="@+id/captTwo_4"
+            android:background="@null"
+            android:src="@null"/>
+
+        <ImageView
+            android:id="@+id/captTwo_6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/timerTwo"
+            android:layout_toEndOf="@+id/captTwo_5"
+            android:background="@null"
+            android:src="@null"/>
+
+        <ImageView
+            android:id="@+id/captTwo_7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/timerTwo"
+            android:layout_toEndOf="@+id/captTwo_6"
+            android:background="@null"
+            android:src="@null"/>
+
+        <ImageView
+            android:id="@+id/captTwo_8"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/timerTwo"
+            android:layout_toEndOf="@+id/captTwo_7"
+            android:background="@null"
+            android:src="@null"/>
+
+        <ImageView
+            android:id="@+id/captTwo_9"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/timerTwo"
+            android:layout_toEndOf="@+id/captTwo_8"
+            android:background="@null"
+            android:src="@null"/>
+
+        <ImageView
+            android:id="@+id/captTwo_10"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/captTwo_1"
+            android:layout_alignParentStart="true"
+            android:background="@null"
+            android:src="@null"/>
+
+        <ImageView
+            android:id="@+id/captTwo_11"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/captTwo_1"
+            android:layout_toEndOf="@+id/captTwo_10"
+            android:background="@null"
+            android:src="@null"/>
+
+        <ImageView
+            android:id="@+id/captTwo_12"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/captTwo_1"
+            android:layout_toEndOf="@+id/captTwo_11"
+            android:background="@null"
+            android:src="@null"/>
+
+        <ImageView
+            android:id="@+id/captTwo_13"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/captTwo_1"
+            android:layout_toEndOf="@+id/captTwo_12"
+            android:background="@null"
+            android:src="@null"/>
+
+        <ImageView
+            android:id="@+id/captTwo_14"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/captTwo_1"
+            android:layout_toEndOf="@+id/captTwo_13"
+            android:background="@null"
+            android:src="@null"/>
+
+        <ImageView
+            android:id="@+id/captTwo_15"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/captTwo_1"
+            android:layout_toEndOf="@+id/captTwo_14"
+            android:background="@null"
+            android:src="@null"/>
+
+    </RelativeLayout>
+
+    <include
+        layout="@layout/board"
+        android:id="@+id/board"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/drag"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:src="@null"/>
+
+    </include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/board">
+
+        <TextView
+            android:id="@+id/player1Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/orange"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/timerOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/orange"
+            android:textSize="25sp"
+            android:text="1:00"/>
+
+        <ImageView
+            android:id="@+id/captOne_1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/timerOne"
+            android:layout_alignParentStart="true"
+            android:background="@null"
+            android:src="@null"/>
+
+        <ImageView
+            android:id="@+id/captOne_2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/timerOne"
+            android:layout_toEndOf="@+id/captOne_1"
+            android:background="@null"
+            android:src="@null"/>
+
+        <ImageView
+            android:id="@+id/captOne_3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/timerOne"
+            android:layout_toEndOf="@+id/captOne_2"
+            android:background="@null"
+            android:src="@null"/>
+
+        <ImageView
+            android:id="@+id/captOne_4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/timerOne"
+            android:layout_toEndOf="@+id/captOne_3"
+            android:background="@null"
+            android:src="@null"/>
+
+        <ImageView
+            android:id="@+id/captOne_5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/timerOne"
+            android:layout_toEndOf="@+id/captOne_4"
+            android:background="@null"
+            android:src="@null"/>
+
+        <ImageView
+            android:id="@+id/captOne_6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/timerOne"
+            android:layout_toEndOf="@+id/captOne_5"
+            android:background="@null"
+            android:src="@null"/>
+
+        <ImageView
+            android:id="@+id/captOne_7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/timerOne"
+            android:layout_toEndOf="@+id/captOne_6"
+            android:background="@null"
+            android:src="@null"/>
+
+        <ImageView
+            android:id="@+id/captOne_8"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/timerOne"
+            android:layout_toEndOf="@+id/captOne_7"
+            android:background="@null"
+            android:src="@null"/>
+
+        <ImageView
+            android:id="@+id/captOne_9"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/timerOne"
+            android:layout_toEndOf="@+id/captOne_8"
+            android:background="@null"
+            android:src="@null"/>
+
+        <ImageView
+            android:id="@+id/captOne_10"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/captOne_1"
+            android:layout_alignParentStart="true"
+            android:background="@null"
+            android:src="@null"/>
+
+        <ImageView
+            android:id="@+id/captOne_11"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/captOne_1"
+            android:layout_toEndOf="@+id/captOne_10"
+            android:background="@null"
+            android:src="@null"/>
+
+        <ImageView
+            android:id="@+id/captOne_12"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/captOne_1"
+            android:layout_toEndOf="@+id/captOne_11"
+            android:background="@null"
+            android:src="@null"/>
+
+        <ImageView
+            android:id="@+id/captOne_13"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/captOne_1"
+            android:layout_toEndOf="@+id/captOne_12"
+            android:background="@null"
+            android:src="@null"/>
+
+        <ImageView
+            android:id="@+id/captOne_14"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/captOne_1"
+            android:layout_toEndOf="@+id/captOne_13"
+            android:background="@null"
+            android:src="@null"/>
+
+        <ImageView
+            android:id="@+id/captOne_15"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/captOne_1"
+            android:layout_toEndOf="@+id/captOne_14"
+            android:background="@null"
+            android:src="@null"/>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
